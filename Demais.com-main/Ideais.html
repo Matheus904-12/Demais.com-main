@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ideais - PRONA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="2e200.png">
+  <style>
+    /* CSS inline */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .background {
+      background: url('') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: -1;
+    }
+
+    .header {
+      background-color: #0A8F36;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Barra de navegação */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #172d7c;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 50px;
+      z-index: 9999;
+      width: 100vw;
+    }
+
+    .navbar__logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar__logo img {
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+
+    .navbar__logo h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar__menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .navbar__menu a {
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 0 20px;
+      padding: 10px 0;
+      position: relative;
+    }
+
+    .navbar__menu a:hover {
+      color: #f4d30c;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .navbar__menu a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #fff;
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar__menu a:hover::after {
+      transform: scaleX(1);
+    }
+
+    body {
+      color: rgb(255, 255, 255);
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 24px;
+      padding: 85px 0px 0px;
+      color: #000;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 24px;
+      padding: 0px 0px 0px;
+      color: #000;
+    }
+
+    .separator {
+      border-top: 1px solid #000;
+      margin: 20px 30px ;
+    }
+
+    .text-section {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+
+    .text-section p {
+      width: 23%;
+    }
+
+    .video-catalog {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      margin: 20px 100px;
+    }
+
+    .video {
+      width: 50%;
+      height: 0;
+      padding-bottom: 28.125%;
+      position: relative;
+      align-items: center;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <img src="Prona 2.0.png" alt="Logo">
+      <h1>PRONA</h1>
+    </div>
+    <div class="navbar__menu">
+      <a href="Início.html">Início</a>
+      <a href="Ideais.html">Ideais</a>
+      <a href="Memorial.html">Memorial</a>
+      <a href="Discussão.html">Discussão</a>
+      <a href="Referências.html">Referências</a>
+      <a href="Cadastro.html">Cadastre-se</a>
+    </div>
+  </nav>
+  <h1 class="titulo">Os Princípios do PRONA</h1>
+  <div class="separator"></div>
+  <div class="text-section">
+    <p>Um ponto defendido pelo partido é o nacionalismo brasileiro, uma ideia que defende o fortalecimento da nação, por meio de seu desenvolvimento econômico e autossuficiência, criticando abertamente a “abertura total do sistema produtivo nacional”, “a entrega do subsolo do país às mineradoras multinacionais” e “a eliminação de qualquer privilégio às empresas de capital nacional”, 
+      
+    </p>
+    <p> defendendo um modelo econômico que priorizasse o mercado interno, combatesse a concentração da renda e os desequilíbrios regionais. Se opondo fortemente a economia planificada e também ao livre comércio em prol do protecionismo e nacionalismo econômico.
+     
+    </p>
+    <p>Outro ponto de suma importância é a defesa da ordem, tradição e moral, enfatizando a necessidade de se restabelecer a ordem na sociedade, que é dividida  entre o elitismo da direita, a desordem da esquerda, a falsa democracia  a serviço das alienadas elites dirigentes internacionais, e a política brasileira em relação àqueles chamados "políticos profissionais", 
+     
+    </p>
+    <p>políticos que exercem diversos mandatos e que dependem do seu salário visando unicamente à manutenção de seus mandatos, e não visando ao bem-estar da população, posicionando o PRONA como a única coisa séria que existe no país. Havendo a defesa das tradições, a moral cristã e os bons costumes.
+      
+    </p>
+  </div>
+  <div class="separator"></div>
+  <h1 class="title">Reportagens</h1>
+  <div class="video-catalog">
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/video1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/video2" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/video3" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/video4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  
+  <p class="os-princpios-do-prona-jhd" id="39:220"></p>
+  <div class="auto-group-pmx1-8uy">
+    <p class="prona-edR">PRONA</p>
+    <div class="line-9-Arf"></div>
+    <div class="partido-da-reedificao-da-ordem-nacional-uZM">PARTIDO DA REEDIFICAÇÃO DA ORDEM NACIONAL</div>
+  </div>
+  
+  <div class="floating-buttons">
+    <a href="https://twitter.com/DrEneasBrasil" class="twitter-button" target="_blank"><i class="fab fa-twitter"></i> T</a>
+    <a href="https://www.facebook.com/EneasTV" class="facebook-button" target="_blank"><i class="fab fa-facebook"></i> F</a>
+    <a href="https://www.instagram.com/dr.eneasomito/" class="instagram-button" target="_blank"><i class="fab fa-instagram"></i> I</a>
+  </div>
+  </div>
+</body>
+</html>
